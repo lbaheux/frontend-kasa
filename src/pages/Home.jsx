@@ -1,5 +1,13 @@
+import Banner from "../components/Banner/Banner.jsx"
+import Gallery from "../components/Gallery/Gallery.jsx"
+
 function Home() {
-    return <h1>Acceuil</h1>
+  return (
+    <div className="home">
+      <Banner />
+      <Gallery />
+    </div>
+  )
 }
 
 export default Home

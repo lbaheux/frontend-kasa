@@ -1,0 +1,9 @@
+.gallery {
+  background: #f6f6f6;
+  border-radius: 25px;
+  padding: 50px 50px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 60px;
+}

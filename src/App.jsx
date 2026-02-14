@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import './styles/main.scss'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Layout from "./components/Layout.jsx"
+import Layout from "./components/Layout/Layout.jsx"
 import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
 import Property from "./pages/Property.jsx"

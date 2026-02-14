@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.header__inner {
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+.header__nav {
+  display: flex;
+  gap: 55px;
+
+  a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  a.active {
+    text-decoration: underline;
+  }
+}

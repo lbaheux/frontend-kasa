@@ -1,0 +1,19 @@
+.aboutBanner {
+  position: relative;
+  width: 100%;
+  height: 223px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.aboutBanner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutBanner__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}

@@ -1,7 +1,13 @@
-@use "./Layout.scss";
+@use "../components/Layout/Layout.scss";
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgba(7, 6, 6, 0.932);
+}
+
+.container {
+  max-width: 1240px;
+  width:100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
