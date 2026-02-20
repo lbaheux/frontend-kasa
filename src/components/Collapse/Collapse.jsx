@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./Collapse.scss"
 
 export default function Collapse({ title, children }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div className="collapse">
@@ -13,16 +13,16 @@ export default function Collapse({ title, children }) {
         aria-expanded={isOpen}>
             
         <span className="collapse__title">{title}</span>
-        <span className={`collapse__chevron ${isOpen ? "is-open" : ""}`} aria-hidden="true">
+        <span className={`collapse__chevron ${isOpen ? "is-open" : ""}`}>
           ▾
         </span>
       </button>
 
       {isOpen && (
         <div className="collapse__content">
-          <p className="collapse__text">{children}</p>
+          <p className="collapse__content">{children}</p>
         </div>
       )}
     </div>
-  );
+  )
 }
