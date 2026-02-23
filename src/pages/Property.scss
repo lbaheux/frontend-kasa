@@ -96,3 +96,63 @@
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .property {
+    gap: 16px;
+  }
+
+  .property__top {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .property__title {
+    font-size: 18px;
+  }
+
+  .property__location {
+    font-size: 14px;
+  }
+
+  .property__tags {
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  .property__tag {
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 4px 10px;
+  }
+
+  .property__hostRating {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    min-width: unset;
+  }
+
+  .property__hostName {
+    font-size: 12px;
+    max-width: 90px;
+  }
+
+  .property__hostPic {
+    width: 32px;
+    height: 32px;
+  }
+
+  .rating {
+    gap: 6px;
+  }
+
+  .star {
+    font-size: 18px;
+  }
+
+  .property__collapses {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

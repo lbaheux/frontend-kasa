@@ -47,4 +47,22 @@
   color: #fff;
   font-size: 18px;
   font-weight: 500;
+
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .slideshow {
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .slideshow__arrow {
+    font-size: 48px;
+    padding: 0 8px;
+  }
+
+  .slideshow__counter {
+    display: none;
+  }
 }

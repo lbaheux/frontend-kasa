@@ -25,3 +25,9 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .card {
+    height: 255px;
+  }
+}

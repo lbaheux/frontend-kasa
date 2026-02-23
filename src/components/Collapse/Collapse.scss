@@ -45,3 +45,19 @@
   font-size: 16px;
   line-height: 1.4;
 }
+
+@media (max-width: 768px) {
+  .collapse__header {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .collapse__content {
+    font-size: 12px;
+    padding: 16px 12px;
+  }
+
+  .collapse__chevron {
+    font-size: 20px;
+  }
+}

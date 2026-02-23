@@ -7,3 +7,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 50px 60px;
 }
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+
+    margin-bottom: 25px; 
+  }
+}

@@ -9,3 +9,9 @@
         padding-top: 20px;
     }
 }
+
+@media (max-width: 768px) {
+  .layout__main {
+    padding-top: 0;
+  }
+}

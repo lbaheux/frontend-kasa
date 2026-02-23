@@ -34,3 +34,31 @@
     
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .header__inner {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header__logo img {
+    height: 45px;
+    width: auto;
+    display: block;
+  }
+
+  .header__nav {
+    gap: 26px;
+
+    a {
+      font-size: 12px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+  }
+}

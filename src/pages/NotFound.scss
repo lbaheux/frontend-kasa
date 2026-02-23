@@ -21,3 +21,23 @@
   color: #000;
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .notfound {
+    margin: 100px 0;
+  }
+
+  .notfound__code {
+    font-size: 100px;
+  }
+
+  .notfound__text {
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+
+  .notfound__link {
+    font-size: 14px;
+  }
+}
