@@ -19,7 +19,7 @@
   background: rgba(0, 0, 0, 0.35);
 }
 
-.banner__title {
+.banner__withTitle .banner__title {
   position: absolute;
   inset: 0;
   display: grid;
@@ -40,12 +40,11 @@
     margin: 0 auto 22px;
   }
 
-  .banner__title {
-    place-items: center start; 
+  .banner__withTitle .banner__title {
+    place-items: center start;
     text-align: left;
     font-size: 24px;
     line-height: 1.1;
-    padding: 0 16px;
-    max-width: 260px; 
+    max-width: 260px;
   }
 }

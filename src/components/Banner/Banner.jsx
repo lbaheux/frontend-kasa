@@ -1,12 +1,11 @@
 import "./Banner.scss"
-import bannerImg from "./home_banner.svg"
 
-function Banner() {
+function Banner({ source, title }) {
   return (
-    <section className="banner">
-      <img className="banner__img" src={bannerImg} alt="" />
+    <section className={`banner ${title ? "banner__withTitle" : ""}`}>
+      <img className="banner__img" src={source} alt="" />
       <div className="banner__overlay" />
-      <h1 className="banner__title">Chez vous, partout et ailleurs</h1>
+      {title ? <h1 className="banner__title">{title}</h1> : null}
     </section>
   )
 }

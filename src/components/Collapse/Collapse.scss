@@ -34,9 +34,11 @@
 .collapse__content {
   background: #f6f6f6;
   border-radius: 0 0 5px 5px;
-  padding: 10px;
-  font-size: 16px;
-  line-height: 1.4;
+  overflow: hidden;
+
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 300ms ease, opacity 250ms ease;
 }
 
 .collapse__text {
@@ -44,6 +46,15 @@
   color: #000;
   font-size: 16px;
   line-height: 1.4;
+}
+
+.collapse__inner {
+  padding: 20px 15px;
+}
+
+.collapse.is-open .collapse__content {
+  max-height: 500px;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {

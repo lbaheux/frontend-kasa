@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom"
-import logements from "../logements.json"
+import logements from "../../logements.json"
 
-import Slideshow from "../components/Slideshow/Slideshow.jsx"
-import Collapse from "../components/Collapse/Collapse.jsx"
-import NotFound from "./NotFound.jsx"
+import Slideshow from "../../components/Slideshow/Slideshow.jsx"
+import Collapse from "../../components/Collapse/Collapse.jsx"
+import NotFound from "../NotFound/NotFound.jsx"
 
 import "./Property.scss"
 

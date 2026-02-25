@@ -5,7 +5,7 @@ export default function Collapse({ title, children }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="collapse">
+    <div className={`collapse ${isOpen ? "is-open" : ""}`}>
       <button
         type="button"
         className="collapse__header"
@@ -18,9 +18,9 @@ export default function Collapse({ title, children }) {
         </span>
       </button>
 
-      {isOpen && (
-        <div className="collapse__content">{children}</div>
-      )}
+      <div className="collapse__content">
+        <div className="collapse__inner">{children}</div>
+      </div>
     </div>
   )
 }

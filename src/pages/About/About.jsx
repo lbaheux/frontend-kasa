@@ -1,6 +1,8 @@
-import AboutBanner from "../components/AboutBanner/AboutBanner.jsx"
-import Collapse from "../components/Collapse/Collapse.jsx"
+import Banner from "../../components/Banner/Banner.jsx"
+import Collapse from "../../components/Collapse/Collapse.jsx"
 import "./About.scss"
+
+import aboutBanner from "./about_banner.svg"
 
 function About() {
   const aboutData = [
@@ -20,7 +22,7 @@ function About() {
 
   return (
     <div className="about">
-      <AboutBanner />
+      <Banner source={aboutBanner} />
 
       <section className="about__collapses">
         {aboutData.map((item, i) => (
